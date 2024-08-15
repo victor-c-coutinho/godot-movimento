@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkwxpvpa6usbs"]
+
+[ext_resource type="Texture2D" uid="uid://cai38wtwkj3eb" path="res://icon.svg" id="1_pcrdv"]
+[ext_resource type="Script" path="res://figura.gd" id="2_o4e1w"]
+
+[node name="principal" type="Node2D"]
+
+[node name="figura" type="Sprite2D" parent="."]
+texture = ExtResource("1_pcrdv")
+script = ExtResource("2_o4e1w")
+velocidade = 8
